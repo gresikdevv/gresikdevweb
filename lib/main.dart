@@ -32,7 +32,7 @@ class _AppState extends State<App> {
         // Check for errors
         if (snapshot.hasError) {
           return GetMaterialApp(
-            title: 'Grissie App',
+            title: 'GresikDev',
             theme: ThemeData(
               primarySwatch: Colors.orange,
             ),
@@ -94,3 +94,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
