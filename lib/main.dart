@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:gresikdevweb/views/onboarding/landing_view.dart';
 
 import 'states/register_state.dart';
 import 'views/home_view.dart';
@@ -67,7 +68,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: HomeView(),
+      home: LandingView(),
     );
   }
 }
